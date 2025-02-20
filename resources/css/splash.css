@@ -1,0 +1,32 @@
+:root{
+    --astro: #2A4B7C;
+    --firebush: #E6A71F;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--astro);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avvanz-logo{
+    width: 35vw;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+.fade-out{
+    opacity: 0;
+}
